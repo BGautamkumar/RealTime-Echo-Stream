@@ -1,6 +1,6 @@
 # 🌊 Echo - Realtime Chat Platform
 
-![Echo Chat App](/frontend/public/screenshot-for-readme.png)
+![Echo Chat App]
 
 > **Experience the future of instant communication with Echo - a beautifully crafted, feature-rich chat application that delivers seamless real-time messaging with the elegance and performance you'd expect from premium platforms.**
 
@@ -16,7 +16,6 @@
 - [ Contributing](#-contributing)
 - [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
-- [ Support](#-support)
 - [ Author & Contact](#-author--contact)
 
 ## Key Features
