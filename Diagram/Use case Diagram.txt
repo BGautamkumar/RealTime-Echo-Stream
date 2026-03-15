@@ -1,0 +1,61 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam usecase {
+  BackgroundColor #FDF6E3
+  BorderColor Black
+  ArrowColor DarkGray
+}
+
+actor User as u
+actor Admin as a
+actor Host as h
+
+package "CryptoChat Nexus" {
+  
+  package "User Features" {
+    usecase "Register & Login" as UC1
+    usecase "Send Message" as UC2
+    usecase "Receive Message" as UC3
+    usecase "Encrypt Message" as UC4
+    usecase "Decrypt Message" as UC5
+    usecase "Join Chat Room" as UC6
+    usecase "Create Chat Room" as UC7
+  }
+
+  package "Admin Functions" {
+    usecase "Manage Users" as UC8
+    usecase "Manage Chat Rooms" as UC10
+  }
+
+  package "Host Operations" {
+    usecase "Monitor Server Health" as UC9
+    usecase "Authenticate Users" as UC11
+    usecase "Encrypt & Decrypt Messages" as UC12
+  }
+}
+
+' User interactions
+u --> UC1
+u --> UC2
+u --> UC3
+u --> UC4
+u --> UC5
+u --> UC6
+u --> UC7
+
+' Admin interactions
+a --> UC8
+a --> UC10
+
+' Host interactions
+h --> UC9
+h --> UC11
+h --> UC12
+
+' Relationships
+UC11 ..> UC1 : <<extends>>
+UC12 ..> UC4 : <<extends>>
+UC12 ..> UC5 : <<extends>>
+
+@enduml

@@ -1,0 +1,68 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam class {
+  BackgroundColor #F5F5F5
+  BorderColor Black
+  ArrowColor DarkGray
+}
+
+class User {
+  +userId: String
+  +username: String
+  +email: String
+  +passwordHash: String
+  +status: String
+  +contacts: List<User>
+  +sendMessage(receiver: User, content: String): void
+  +joinRoom(room: ChatRoom): void
+}
+
+class Message {
+  +messageId: String
+  +sender: User
+  +receiver: User
+  +content: String
+  +timestamp: Date
+  +isEncrypted: Boolean
+  +encrypt(): void
+  +decrypt(): void
+}
+
+class ChatRoom {
+  +roomId: String
+  +name: String
+  +members: List<User>
+  +messages: List<Message>
+  +addMember(user: User): void
+  +sendMessage(sender: User, content: String): void
+  +getMessages(): List<Message>
+}
+
+class Encryption {
+  +encrypt(data: String): String
+  +decrypt(data: String): String
+}
+
+class Authentication {
+  +register(username: String, email: String, password: String): Boolean
+  +login(email: String, password: String): User
+  +logout(user: User): void
+  +isAuthenticated(user: User): Boolean
+}
+
+class SocketHandler {
+  +connect(user: User): void
+  +disconnect(user: User): void
+  +broadcastMessage(room: ChatRoom, message: Message): void
+  +privateMessage(sender: User, receiver: User, message: Message): void
+}
+
+' Associations and usage
+User --> Message : Sends
+Message --> Encryption : Encrypts/Decrypts
+Message --> ChatRoom : Belongs to
+User --> Authentication : Authenticates with
+ChatRoom --> SocketHandler : Relays messages
+SocketHandler --> User : Manages sessions
+
+@enduml
