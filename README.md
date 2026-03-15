@@ -6,46 +6,46 @@
 
 ## 📋 Table of Contents
 
-- [✨ Key Features](#-key-features)
-- [🏗️ Technical Architecture](#️-technical-architecture)
-- [📊 Project Structure](#-project-structure)
-- [🚀 Quick Start](#-quick-start)
-- [📱 Usage](#-usage)
-- [🎯 What Makes Echo Special](#-what-makes-echo-special)
-- [🛣️ Roadmap](#️-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🙏 Acknowledgments](#-acknowledgments)
-- [📞 Support](#-support)
-- [👤 Author & Contact](#-author--contact)
+- [ Key Features](#-key-features)
+- [ Technical Architecture](#️-technical-architecture)
+- [ Project Structure](#-project-structure)
+- [ Quick Start](#-quick-start)
+- [ Usage](#-usage)
+- [ What Makes Echo Special](#-what-makes-echo-special)
+- [ Roadmap](#️-roadmap)
+- [ Contributing](#-contributing)
+- [ License](#-license)
+- [ Acknowledgments](#-acknowledgments)
+- [ Support](#-support)
+- [ Author & Contact](#-author--contact)
 
-## ✨ Key Features
+## Key Features
 
-### 🚀 **Core Messaging**
+### **Core Messaging**
 - **Real-time Messaging** - Instant message delivery with Socket.io
 - **End-to-End Encryption Ready** - Secure communication framework
 - **Message Types** - Text, images, voice messages, and file sharing
 - **Smart Notifications** - Stay informed without being overwhelmed
 
-### 🎨 **User Experience**
+### **User Experience**
 - **iPhone-Level Smoothness** - Optimized animations and transitions
 - **Responsive Design** - Perfect experience on all devices
 - **Dark/Light Themes** - Personalize your viewing experience
 - **Online Status Tracking** - See who's available in real-time
 
-### 🛠 **Advanced Features**
+### **Advanced Features**
 - **Voice Messaging** - Record and send voice notes
 - **File Sharing** - Share documents, images, and media
 - **Search Functionality** - Find messages instantly
 - **Typing Indicators** - Real-time typing feedback
 - **Message Reactions** - Express yourself with emoji reactions
 
-### 🔐 **Security & Privacy**
+### **Security & Privacy**
 - **JWT Authentication** - Secure user authentication
 - **Privacy Controls** - Manage your data and visibility
 - **Secure File Uploads** - Cloudinary integration for safe media sharing
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### **Frontend Stack**
 ```
@@ -69,13 +69,13 @@ Node.js + Express
 ```
 
 ### **Performance Optimizations**
-- ⚡ **Code Splitting** - Lazy loading for faster initial load
-- 🎯 **Component Memoization** - Prevents unnecessary re-renders
-- 🚀 **GPU Acceleration** - Hardware-accelerated animations
-- 📦 **Bundle Optimization** - Optimized chunk splitting
-- 🔧 **Memory Management** - Efficient resource usage
+- **Code Splitting** - Lazy loading for faster initial load
+- **Component Memoization** - Prevents unnecessary re-renders
+- **GPU Acceleration** - Hardware-accelerated animations
+- **Bundle Optimization** - Optimized chunk splitting
+- **Memory Management** - Efficient resource usage
 
-## � Project Structure
+## Project Structure
 
 ```
 Echo-chat-app/
@@ -108,7 +108,7 @@ Echo-chat-app/
 └── 📄 package.json                # Root package configuration
 ```
 
-## � Quick Start
+## Quick Start
 
 ### **Prerequisites**
 - Node.js 16+
@@ -158,7 +158,7 @@ CLOUDINARY_API_SECRET=your-api-secret
 NODE_ENV=development
 ```
 
-## 📱 Usage
+## Usage
 
 ### **How to Run This Project**
 
@@ -183,7 +183,7 @@ npm run build
 npm start
 ```
 
-## 🎯 What Makes Echo Special?
+## What Makes Echo Special?
 
 ### **Overview**
 Echo is not just another chat application - it's a comprehensive communication platform built with performance, security, and user experience at its core. Every aspect of Echo has been carefully crafted to deliver a premium messaging experience.
@@ -206,7 +206,7 @@ Echo is not just another chat application - it's a comprehensive communication p
 - Scalable architecture
 - Deployment optimized
 
-## 🛣️ Roadmap
+## Roadmap
 
 ### **Coming Soon**
 - [ ] **Video Calling** - Face-to-face conversations
@@ -222,7 +222,7 @@ Echo is not just another chat application - it's a comprehensive communication p
 - [ ] Integration with other platforms
 - [ ] Custom themes and stickers
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how to get started:
 
@@ -242,30 +242,22 @@ We welcome contributions! Here's how to get started:
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Socket.io** - For enabling real-time communication
 - **Cloudinary** - For reliable file storage
 - **TailwindCSS** - For the beautiful UI framework
 - **React Team** - For the amazing frontend library
 
-## 📞 Support
-
-- 📧 Email: support@echo-chat.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/Echo-chat-app/issues)
-- 💬 Discord: [Join our community](https://discord.gg/echo-chat)
-
 ## 👤 Author & Contact
 
-**👨‍💻 Developed by [Your Name]**
+** Developed by [B Gautam Kumar]**
 
 Echo represents my passion for creating exceptional user experiences through modern web technologies. This project showcases advanced React development, real-time communication protocols, and performance optimization techniques.
 
 ### **Connect With Me**
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [Your GitHub Profile](https://github.com/yourusername)
-- 🐦 Twitter: [@yourusername](https://twitter.com/yourusername)
+- 📧 Email: bgautamsurya@gmail.com
+- 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/gautamkumarb7)
 
 ### **Final Recommendations**
 
